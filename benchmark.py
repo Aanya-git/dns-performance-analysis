@@ -8,8 +8,8 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-# --- 1. Configuration (Sirf yahan network ka naam change karna hai) ---
-NETWORK_NAME = "Campus WiFi"   # Wi-Fi ke liye "WiFi" aur Hotspot ke liye "Hotspot" likhein
+# --- 1. Configuration (we only change the network name for different networks) ---
+NETWORK_NAME = "Hotspot"   # Wi-Fi ke liye "WiFi" aur Hotspot ke liye "Hotspot" likhein
 NUM_RUNS = 5               # Har website ko kitni baar test karna hai
 
 # 20 Target Websites (Indian + Global mix)
